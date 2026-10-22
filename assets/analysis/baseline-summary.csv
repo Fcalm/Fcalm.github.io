@@ -1,0 +1,3 @@
+task_type,cases,completed,mean_score,model_rounds,total_tokens
+prompt,10,10,98.16,23,77238
+browser,2,2,97.6,81,1965620
