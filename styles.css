@@ -130,17 +130,24 @@ footer.is-in-view .footer-art path{animation-play-state:running}
 .home-rag-preview .image-zoom img{width:100%;height:100%;aspect-ratio:auto;object-fit:contain}
 .home-rag-preview .rag-screen-caption{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
 /* 关于我：分段标题、正文与细分隔线，教育信息配院校徽标。 */
-.about-education{display:flex;align-items:center;gap:16px;margin-top:6px}
-.about-education>img{width:56px;height:56px;flex:none;object-fit:contain}
+.about-section{display:block;width:100%;max-width:none;padding-inline:clamp(24px,5vw,96px)}
+.about-section>.section-heading{margin-bottom:38px}
+.about-identity{display:block}
+.about-identity .about-name{margin-bottom:32px}
+.about-copy{margin-top:0;padding-top:0}
+.about-education,.about-copy .about-part{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.4fr);column-gap:clamp(32px,6vw,100px);row-gap:16px;padding:34px 0;border-bottom:1px solid var(--line)}
+.about-education{margin-top:0;border-top:1px solid var(--line)}
+.education-detail{display:flex;align-items:center;gap:16px}
+.education-detail>img{width:56px;height:56px;flex:none;object-fit:contain}
 .about-education p{font-size:13px;line-height:1.9;color:var(--muted)}
 .about-education strong,.about-education span{display:block}
-.about-education strong{font-size:16px;font-weight:550;color:var(--ink)}
-.about-copy .about-part{padding:30px 0;border-bottom:1px solid var(--line)}
-.about-copy .about-part:first-child{padding-top:0}
+.about-education strong{font-size:14px;font-weight:550;color:var(--ink)}
+.about-copy .about-part:first-child{padding-top:34px}
 .about-copy .about-part:last-child{padding-bottom:0;border-bottom:0}
-.about-copy .about-part h3{font-size:clamp(22px,2vw,27px);line-height:1.4;letter-spacing:-.025em;margin-bottom:16px}
+.about-education h3,.about-copy .about-part h3{font-size:clamp(22px,2vw,30px);line-height:1.4;letter-spacing:-.025em;margin-bottom:0;grid-column:1;grid-row:1 / span 2}
+.about-copy .about-part p{grid-column:2;max-width:76ch;margin:0}
 .about-identity .about-name{line-height:1.26}
-@media(max-width:760px){.about-copy .about-part{padding-block:26px}.about-copy .about-part:first-child{padding-top:0}.about-education{gap:14px}.about-copy{margin-top:36px}.about-education>img{width:50px;height:50px}}
+@media(max-width:760px){.about-section{padding-inline:20px}.about-education,.about-copy .about-part{grid-template-columns:1fr;padding-block:26px;gap:16px}.about-education h3,.about-copy .about-part h3{grid-column:1;grid-row:auto}.about-copy .about-part p{grid-column:1}.about-copy .about-part:first-child{padding-top:26px}.about-copy{margin-top:0}.education-detail{gap:14px}.education-detail>img{width:50px;height:50px}}
 /* 产品交付材料沿用正文分隔线与无衬线字体。 */
 .artifact-list{border-top:1px solid var(--line)}.artifact-row{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:20px;align-items:start;padding:28px 0;border-bottom:1px solid var(--line)}.artifact-number{color:var(--accent);font-size:12px;padding-top:4px}.artifact-row h3{font-size:19px}.artifact-row p{max-width:66ch;margin-top:10px;font-size:14px;color:var(--muted);line-height:1.9}.artifact-row>a{font-size:13px;color:var(--accent);padding:4px 0;border-bottom:1px solid var(--line);white-space:nowrap}.artifact-row>a:hover{border-color:var(--accent)}.analysis-reading{max-width:760px;margin-top:30px}.analysis-reading h3{font-size:21px;margin-bottom:15px}.analysis-reading p{font-size:14px;color:var(--muted);line-height:1.95}.analysis-section .table-scroll{margin-top:0}.delivery-section{padding-bottom:30px}
 @media(max-width:760px){.artifact-row{grid-template-columns:24px minmax(0,1fr);gap:12px;padding:24px 0}.artifact-row>a{grid-column:2;justify-self:start}.artifact-row h3{font-size:18px}.artifact-row p{font-size:13px}.analysis-section .actions{align-items:stretch}.analysis-section .actions a{white-space:normal}.analysis-section table{min-width:520px}}
