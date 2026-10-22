@@ -1,0 +1,84 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>首次任务的用户研究与反馈闭环 · 范炜乾</title><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../styles.css"></head><body><main class="container artifact-document"><a class="back-link" href="../../skills.html#deliverables">返回能力与交付材料</a><article><h1>首次任务的用户研究与反馈闭环</h1>
+<p>状态：待执行的试用方案与记录模板，不是已经完成的用户访谈、问卷或增长报告。</p>
+<h2>研究问题</h2>
+<p>新用户能否理解“先整理真实档案，再让 AI 处理任务”？他们在哪里停止、需要什么帮助、如何判断结果可信？</p>
+<p>建议先招募 5–8 位近期有求职需求的同学，覆盖不同简历准备程度。样本用于发现问题，不用于推断总体比例。</p>
+<h2>访谈与任务</h2>
+<p>先了解最近一次真实求职经历，再观察用户独立完成任务；不要先演示标准路径。</p>
+<ol>
+<li>最近一次改简历或申请岗位，你用了哪些工具？最费时的步骤是什么？</li>
+<li>资料分散时，你怎样确认哪份内容是最新、真实的？</li>
+<li>让用户整理一条真实经历，找到目标岗位，尝试获取一份修改草稿。</li>
+<li>观察是否理解聊天与工作场景，是否知道哪些操作需要确认。</li>
+<li>展示信息缺失或保存未成功的状态，询问用户认为发生了什么、下一步会做什么。</li>
+<li>任务后询问结果是否可用、哪里需要修改、是否愿意继续使用，并记录理由。</li>
+</ol>
+<h2>数据口径</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>问题</th>
+<th>采集字段与计算</th>
+<th>注意事项</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>首次任务能否完成</td>
+<td>task_attempt_id、task_type、version、start/end、outcome；完成数/有效开始数</td>
+<td>completed、failed、cancelled、unknown 分开记录</td>
+</tr>
+<tr>
+<td>哪一步阻塞</td>
+<td>当前步骤、错误类别、接管原因、观察记录</td>
+<td>事件缺失不能直接当作放弃，先检查是否中断采集</td>
+</tr>
+<tr>
+<td>是否频繁复用</td>
+<td>匿名试用标识、任务日期、有效完成任务数</td>
+<td>按观察窗口与任务类型分组；不把重复点击当成使用频次</td>
+</tr>
+<tr>
+<td>结果是否有用</td>
+<td>任务后 1–5 分评价、人工修改点、开放反馈</td>
+<td>同时报送应答数与未应答数；满意度不替代正确性</td>
+</tr>
+<tr>
+<td>代价是否可接受</td>
+<td>任务耗时、模型轮次、Usage、重试</td>
+<td>金额需结合实际计费信息，不能从 Token 总量直接推算</td>
+</tr>
+</tbody>
+</table></div>
+<h2>反馈如何转成迭代</h2>
+<p>记录反馈原话 → 关联任务与版本 → 重现问题 → 区分事实错误、权限误解、流程阻塞、表达或性能问题 → 判断风险与影响范围 → 提出改动假设 → 加入验收/回归案例 → 新一轮任务验证。</p>
+<p>优先级：未授权操作、事实编造或错误提交优先；其次是阻断任务的高频问题；单点文案与视觉偏好结合成本处理。未收集真实反馈前，不填虚构问题频次。</p>
+<h2>单条反馈模板</h2>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>反馈原话</th>
+<th>场景/版本</th>
+<th>可复现步骤</th>
+<th>影响与风险</th>
+<th>证据</th>
+<th>修改假设</th>
+<th>验收标准</th>
+<th>责任与状态</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>待记录</td>
+<td>待记录</td>
+<td>待记录</td>
+<td>待判断</td>
+<td>待关联</td>
+<td>待提出</td>
+<td>待明确</td>
+<td>待分配</td>
+</tr>
+</tbody>
+</table></div>
+<h2>面向 AI 教育产品的迁移思考</h2>
+<p>若迁移到学习助手场景，可沿用“用户任务 → 可信资料 → 生成 → 核对 → 下一步”的结构，以知识点、学习材料和讲解理解度替换岗位与简历任务。是否有助于学习，需要与教师/学习者验证；本节仅是场景迁移假设，不代表已有教育产品上线经验。</p></article><div class="actions"><a class="button" href="research-feedback-plan.md" download>下载原始文档</a><a class="text-link" href="../../skills.html#deliverables">返回能力页</a></div></main></body></html>

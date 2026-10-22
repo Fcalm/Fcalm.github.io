@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI 应用方案对比：先验证需求，再决定编排方式 · 范炜乾</title><link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../styles.css"></head><body><main class="container artifact-document"><a class="back-link" href="../../skills.html#deliverables">返回能力与交付材料</a><article><h1>AI 应用方案对比：先验证需求，再决定编排方式</h1>
+<p>整理日期：2026-10-22。范围：公开资料研究与现有项目方案分析；不是竞品实测、市场份额研究或 Dify 项目经历。</p>
+<h2>同一个产品问题</h2>
+<p>用户既需要基于资料得到答案，也可能希望 AI 执行有风险的外部动作。选型需要区分“生成/问答”“固定任务流程”和“动态规划与执行”，而不是比较谁的功能名更多。</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>方案</th>
+<th>适合验证的问题</th>
+<th>产品侧需要补齐什么</th>
+<th>采用判断</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>通用对话 + 手动整理</td>
+<td>用户是否需要改写、解释或资料摘要</td>
+<td>资料版本、结果核对、跨步骤状态仍需手工连接</td>
+<td>需求不稳定、任务量小时，先用低成本方式验证</td>
+</tr>
+<tr>
+<td>Dify 可视化 AI 应用与工作流</td>
+<td>流程相对明确，希望快速编排模型、知识库与工具</td>
+<td>仍需明确业务权限、异常与验收；对特定桌面/浏览器动作需核查集成方式</td>
+<td>标准链路优先评估是否能低成本覆盖，不预设必须自建</td>
+</tr>
+<tr>
+<td>LangChain / LangGraph 代码方案</td>
+<td>需要更细的工具、状态、模型调用与执行控制</td>
+<td>调试、评测、可观测与维护成本由项目承担</td>
+<td>定制需求明确，且控制收益足以覆盖维护成本时再选择</td>
+</tr>
+</tbody>
+</table></div>
+<h2>对两个项目的启发</h2>
+<ul>
+<li>Agentic RAG 已使用 LangChain/LangGraph 组织检索与路由。下一步应与更简单的 RAG 基线比较，而不是因使用 Agent 就认定效果更好。</li>
+<li>Avery 的差异假设是资料、材料版本、浏览器执行与跟进状态贯通。是否值得自建，取决于真实试用能否证明配置成本换来了任务价值。</li>
+<li>Dify 的文档覆盖工作流、知识库、工具集成、日志等能力。这里将它作为可视化应用方案的研究对象；没有实际搭建记录，不能据此声称熟练使用。</li>
+</ul>
+<h2>下一轮实测应如何公平比较</h2>
+<p>固定同一任务、资料、模型配置与成功标准，分别记录首次配置耗时、最终结果、人工接管、模型调用、异常恢复和维护成本。先列明平台/模型/插件版本，再比较结果；未实施对照前不填分数与排名。</p>
+<h2>资料</h2>
+<ul>
+<li><a href="https://docs.dify.ai/en/home">Dify 官方文档</a>：平台、应用编排、知识库与集成的能力说明。</li>
+<li><a href="https://docs.langchain.com/oss/python/langchain/overview">LangChain 官方概览</a>：模型、工具、Prompt 与中间件的组合，以及与 LangGraph 的定位关系。</li>
+<li><a href="../../prd.html">Avery PRD</a>：现有替代工作方式与产品范围。</li>
+<li><a href="https://github.com/Fcalm/Agentic-RAG">Agentic RAG 项目</a>：实际技术与产品链路。</li>
+</ul></article><div class="actions"><a class="button" href="solution-comparison.md" download>下载原始文档</a><a class="text-link" href="../../skills.html#deliverables">返回能力页</a></div></main></body></html>
