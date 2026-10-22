@@ -1,0 +1,14 @@
+# Publish only the static portfolio and its runtime resources.
+/*
+!/.gitignore
+!/.nojekyll
+!/index.html
+!/project-detail.html
+!/project-rag.html
+!/skills.html
+!/prd.html
+!/styles.css
+!/site.js
+!/assets/
+!/prototypes/
+/assets/*.py

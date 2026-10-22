@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FAFAF7"/>
+  <!-- 文档层级 + 检索连线 -->
+  <rect x="110" y="90" width="150" height="200" rx="16" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.2" stroke-width="2"/>
+  <rect x="140" y="130" width="90" height="12" rx="6" fill="#6B6B66" opacity="0.5"/>
+  <rect x="140" y="160" width="70" height="12" rx="6" fill="#6B6B66" opacity="0.3"/>
+  <rect x="140" y="190" width="80" height="12" rx="6" fill="#6B6B66" opacity="0.4"/>
+  <rect x="140" y="220" width="60" height="12" rx="6" fill="#6B6B66" opacity="0.25"/>
+  <rect x="300" y="130" width="130" height="120" rx="16" fill="#2B4ACB" opacity="0.3"/>
+  <rect x="310" y="285" width="110" height="110" rx="16" fill="#2B4ACB" opacity="0.55"/>
+  <rect x="455" y="200" width="100" height="90" rx="16" fill="#2B4ACB"/>
+  <circle cx="640" cy="150" r="46" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.25" stroke-width="2"/>
+  <circle cx="690" cy="300" r="30" fill="#2B4ACB" opacity="0.35"/>
+  <line x1="260" y1="190" x2="300" y2="190" stroke="#6B6B66" stroke-opacity="0.5" stroke-width="3"/>
+  <line x1="430" y1="190" x2="455" y2="230" stroke="#6B6B66" stroke-opacity="0.5" stroke-width="3"/>
+  <line x1="555" y1="245" x2="608" y2="170" stroke="#6B6B66" stroke-opacity="0.5" stroke-width="3"/>
+</svg>

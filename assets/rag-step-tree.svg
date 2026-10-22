@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"><rect width="800" height="500" fill="#FAFAF7"/>
+  <rect x="120" y="60" width="200" height="60" rx="14" fill="#2B4ACB" opacity="0.3"/>
+  <text x="220" y="97" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A18" text-anchor="middle">L1 摘要</text>
+  <rect x="480" y="60" width="200" height="60" rx="14" fill="#2B4ACB" opacity="0.3"/>
+  <text x="580" y="97" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1A1A18" text-anchor="middle">L1 摘要</text>
+  <line x1="220" y1="120" x2="220" y2="150" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.5"/>
+  <line x1="580" y1="120" x2="580" y2="150" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.5"/>
+  <rect x="100" y="150" width="100" height="48" rx="12" fill="#2B4ACB" opacity="0.55"/>
+  <rect x="220" y="150" width="100" height="48" rx="12" fill="#2B4ACB" opacity="0.55"/>
+  <rect x="460" y="150" width="100" height="48" rx="12" fill="#2B4ACB" opacity="0.55"/>
+  <rect x="580" y="150" width="100" height="48" rx="12" fill="#2B4ACB" opacity="0.55"/>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">L2</text>
+  <text x="270" y="180" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">L2</text>
+  <text x="510" y="180" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">L2</text>
+  <text x="630" y="180" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">L2</text>
+  <g fill="#FFFFFF" stroke="#2B4ACB" stroke-width="2" stroke-opacity="0.8">
+    <rect x="70" y="240" width="80" height="44" rx="12"/>
+    <rect x="170" y="240" width="80" height="44" rx="12"/>
+    <rect x="270" y="240" width="80" height="44" rx="12"/>
+    <rect x="370" y="240" width="80" height="44" rx="12"/>
+    <rect x="470" y="240" width="80" height="44" rx="12"/>
+    <rect x="570" y="240" width="80" height="44" rx="12"/>
+    <rect x="670" y="240" width="80" height="44" rx="12"/>
+  </g>
+  <text x="410" y="330" font-family="Arial, sans-serif" font-size="15" fill="#6B6B66" text-anchor="middle">L3 叶子块入向量库 · 父块存文档库</text>
+  <rect x="70" y="360" width="680" height="52" rx="14" fill="#1A1A18"/>
+  <text x="110" y="393" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">BM25 + 向量双路召回</text>
+  <text x="400" y="393" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.75">RRF 融合</text>
+  <text x="560" y="393" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.75">Rerank 精排</text>
+  <line x1="330" y1="393" x2="370" y2="393" stroke="#2B4ACB" stroke-width="0"/>
+  <text x="710" y="393" font-family="Arial, sans-serif" font-size="16" fill="#FFFFFF" opacity="0.75">合并</text>
+</svg>

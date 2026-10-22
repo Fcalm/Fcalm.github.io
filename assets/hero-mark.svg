@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#FAFAF7"/>
+  <circle cx="620" cy="200" r="180" fill="#2B4ACB" opacity="0.12"/>
+  <circle cx="150" cy="830" r="110" fill="#6B6B66" opacity="0.22"/>
+  <rect x="220" y="250" width="360" height="500" rx="40" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.16" stroke-width="3"/>
+  <rect x="220" y="250" width="360" height="500" rx="40" fill="none" stroke="#2B4ACB" stroke-opacity="0.25" stroke-width="3" transform="translate(14 14)"/>
+  <text x="400" y="480" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="230" font-weight="700" fill="#2B4ACB" text-anchor="middle">F</text>
+  <text x="400" y="600" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="56" font-weight="700" fill="#1A1A18" text-anchor="middle">Fcalm</text>
+  <rect x="330" y="650" width="140" height="10" rx="5" fill="#6B6B66" opacity="0.4"/>
+</svg>

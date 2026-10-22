@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#FAFAF7"/>
+  <!-- 对话 - 简历 - 投递 三节点流程 -->
+  <line x1="400" y1="150" x2="220" y2="330" stroke="#6B6B66" stroke-opacity="0.5" stroke-width="3"/>
+  <line x1="400" y1="150" x2="400" y2="330" stroke="#6B6B66" stroke-opacity="0.5" stroke-width="3"/>
+  <line x1="400" y1="150" x2="580" y2="330" stroke="#6B6B66" stroke-opacity="0.5" stroke-width="3"/>
+  <rect x="310" y="90" width="180" height="60" rx="16" fill="#1A1A18"/>
+  <rect x="130" y="330" width="180" height="60" rx="16" fill="#2B4ACB" opacity="0.25"/>
+  <rect x="310" y="330" width="180" height="60" rx="16" fill="#2B4ACB"/>
+  <rect x="490" y="330" width="180" height="60" rx="16" fill="#2B4ACB" opacity="0.55"/>
+  <circle cx="640" cy="120" r="40" fill="#2B4ACB" opacity="0.18"/>
+  <rect x="130" y="430" width="540" height="14" rx="7" fill="#6B6B66" opacity="0.35"/>
+</svg>

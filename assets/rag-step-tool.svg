@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"><rect width="800" height="500" fill="#FAFAF7"/>
+  <circle cx="200" cy="150" r="70" fill="#2B4ACB"/>
+  <text x="200" y="142" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">AGENT</text>
+  <text x="200" y="168" font-family="Arial, sans-serif" font-size="13" fill="#FFFFFF" opacity="0.8" text-anchor="middle">自主决策</text>
+  <line x1="200" y1="220" x2="200" y2="270" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="95" y1="270" x2="335" y2="270" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="95" y1="270" x2="95" y2="300" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="215" y1="270" x2="215" y2="300" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.6"/>
+  <line x1="335" y1="270" x2="335" y2="300" stroke="#6B6B66" stroke-width="2" stroke-opacity="0.6"/>
+  <rect x="35" y="300" width="120" height="52" rx="14" fill="#2B4ACB"/>
+  <text x="95" y="332" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">RAG 检索</text>
+  <rect x="155" y="300" width="120" height="52" rx="14" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="215" y="332" font-family="Arial, sans-serif" font-size="14" fill="#6B6B66" text-anchor="middle">其他工具</text>
+  <rect x="275" y="300" width="120" height="52" rx="14" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="335" y="332" font-family="Arial, sans-serif" font-size="14" fill="#6B6B66" text-anchor="middle">直接回答</text>
+  <rect x="420" y="90" width="310" height="330" rx="18" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.18" stroke-width="2"/>
+  <text x="450" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1A1A18">rag_trace</text>
+  <g fill="#6B6B66" opacity="0.5">
+    <rect x="450" y="155" width="240" height="10" rx="5"/>
+    <rect x="450" y="185" width="200" height="10" rx="5"/>
+    <rect x="450" y="215" width="250" height="10" rx="5"/>
+    <rect x="450" y="245" width="180" height="10" rx="5"/>
+  </g>
+  <g fill="#2B4ACB">
+    <rect x="450" y="285" width="90" height="26" rx="8" opacity="0.85"/>
+    <rect x="555" y="285" width="90" height="26" rx="8" opacity="0.55"/>
+    <rect x="660" y="285" width="46" height="26" rx="8" opacity="0.3"/>
+  </g>
+  <rect x="450" y="330" width="120" height="10" rx="5" fill="#2B4ACB" opacity="0.5"/>
+  <rect x="450" y="360" width="90" height="10" rx="5" fill="#6B6B66" opacity="0.4"/>
+  <text x="450" y="400" font-family="Arial, sans-serif" font-size="13" fill="#6B6B66">评分 · 路由 · 改写方式 · 检索/精排分数</text>
+</svg>

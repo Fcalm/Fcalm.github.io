@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500"><rect width="800" height="500" fill="#FAFAF7"/>
+  <rect x="90" y="200" width="120" height="70" rx="14" fill="#2B4ACB"/>
+  <line x1="210" y1="235" x2="280" y2="235" stroke="#6B6B66" stroke-width="3" stroke-opacity="0.5"/>
+  <rect x="280" y="200" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#2B4ACB" stroke-width="2" stroke-opacity="0.7"/>
+  <line x1="400" y1="235" x2="470" y2="235" stroke="#6B6B66" stroke-width="3" stroke-opacity="0.5"/>
+  <rect x="470" y="200" width="120" height="70" rx="14" fill="#FFFFFF" stroke="#1A1A18" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="150" y="243" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">TASK</text>
+  <text x="340" y="243" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2B4ACB" text-anchor="middle">RETRY</text>
+  <text x="530" y="243" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1A1A18" text-anchor="middle">STOP</text>
+  <path d="M340 270 Q340 330 250 330 L160 330" fill="none" stroke="#2B4ACB" stroke-width="3" stroke-opacity="0.6" stroke-dasharray="8 6"/>
+  <rect x="90" y="300" width="130" height="56" rx="14" fill="#2B4ACB" opacity="0.15"/>
+  <text x="155" y="334" font-family="Arial, sans-serif" font-size="17" fill="#2B4ACB" text-anchor="middle">fallback</text>
+  <line x1="590" y1="235" x2="640" y2="235" stroke="#6B6B66" stroke-width="3" stroke-opacity="0.5"/>
+  <circle cx="686" cy="235" r="44" fill="#1A1A18"/>
+  <text x="686" y="243" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">x3</text>
+  <rect x="90" y="420" width="620" height="14" rx="7" fill="#6B6B66" opacity="0.35"/>
+</svg>
